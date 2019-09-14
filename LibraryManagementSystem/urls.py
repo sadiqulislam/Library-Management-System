@@ -5,6 +5,7 @@ from django.http import HttpResponse
 urlpatterns = {
     path('admin/', admin.site.urls),
     path('cse/',include('cse.urls')),
-    path('eee/',include('eee.urls'))
+    path('eee/',include('eee.urls')),
+    path('bba/',include('bba.urls'))
 
 }
