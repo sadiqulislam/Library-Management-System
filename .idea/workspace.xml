@@ -2,16 +2,74 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8a739c-d61c-448f-8a09-68e2103dc15b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bba/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bba/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bba/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bba/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bba/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bba/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bba/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bba/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/LibraryManagementSystem.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryManagementSystem/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryManagementSystem/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryManagementSystem/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryManagementSystem/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eee/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eee/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eee/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eee/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eee/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eee/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eee/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eee/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LibraryManagementSystem/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LibraryManagementSystem/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bba/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bba/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bba/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bba/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bba/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bba/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bba/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bba/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cse/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eee/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +81,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
   <component name="ProjectId" id="1Qn9bvel6SA1UDZgWM8XNM0mYkL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -35,7 +94,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Skill Developing\dJango Practice\LibraryManagementSystem\src\cse\static\cse\images" />
+      <recent name="D:\Skill Developing\dJango Practice\LibraryManagementSystem\src\cse\static\cse" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -61,6 +127,9 @@
       <updated>1568395567358</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
