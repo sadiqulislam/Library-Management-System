@@ -4,6 +4,13 @@ from django.shortcuts import render
 def index(req):
 
     context = {
-        ('title':'Home')
+        'title':'Home'
     }
-    return render (req,'cse/index.html')
+    return render (req,'cse/index.html',context=context)
+
+def list(req):
+
+    context = {
+            'title' : 'List Of Books'
+    }
+    return render (req,'cse/list.html',context=context)

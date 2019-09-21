@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8a739c-d61c-448f-8a09-68e2103dc15b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/cse/templates/cse/list.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/static/bootstrap-4/css/bootstrap-grid.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/static/bootstrap-4/css/bootstrap-grid.css.map" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/static/bootstrap-4/css/bootstrap-grid.min.css" afterDir="false" />
@@ -24,7 +25,9 @@
       <change afterPath="$PROJECT_DIR$/src/static/bootstrap-4/js/bootstrap.min.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LibraryManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagementSystem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LibraryManagementSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagementSystem/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cse/templates/cse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/templates/cse/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
