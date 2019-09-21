@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8a739c-d61c-448f-8a09-68e2103dc15b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bba/templates/bba/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/static/cse/CSE_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cse/static/cse/Cse.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/cse/templates/cse/list.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/static/bootstrap-4/css/bootstrap-grid.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/static/bootstrap-4/css/bootstrap-grid.css.map" afterDir="false" />
@@ -26,9 +29,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LibraryManagementSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagementSystem/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LibraryManagementSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/LibraryManagementSystem/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bba/templates/bba/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bba/templates/bba/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bba/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bba/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bba/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/bba/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cse/static/cse/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/static/cse/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cse/templates/cse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/templates/cse/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cse/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cse/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eee/templates/eee/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/eee/templates/eee/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Python Practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
