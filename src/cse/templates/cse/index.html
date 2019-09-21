@@ -10,16 +10,16 @@
 	<!--<link rel="stylesheet" href="{% static 'cse/style.css' %}">-->
 
 </head>
-<body>
+<section>
 
 
 <!--Nav Bar Section-->
 
 	<section class="navbar-section">
 
-		<div class="container">
+       <nav class="navbar navbar-expand-lg navbar-light bg-primary rounded">
 
-			<nav class="navbar navbar-expand-lg navbar-light bg-primary rounded">
+		<div class="container">
 				<a class="navbar-brand" href="#">LOGO</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,12 +27,12 @@
 					</button>
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav mr-auto">
+					<ul class="navbar-nav m-auto">
 						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="#">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{% static 'cse/list.html' %}">Book List</a>
+							<a class="nav-link" href="#">Book List</a>
 						</li>
 
 						<li class="nav-item dropdown">
@@ -54,14 +54,11 @@
 				</form>
 			</div>
 
+		</div>
 			</nav>
-			</div>
+
 
 		</section>
-
-
-
-
 
 <!--Nav Bar Section-->
 
@@ -86,6 +83,48 @@
 			<!--Container Class End-->
 	</section>
 <!--Banner Section End-->
+
+
+
+<!--Content Section-->
+		<section class="content-section">
+			<div class="container">
+				<div class="row">
+					<div class="card col-sm-4 ">
+  						<img src="{% static 'cse/book.jpg' %}" class="card-img-top img-fluid m-auto" alt="Book">
+ 					 <div class="card-body">
+    					<h5 class="card-title">Data Structure</h5>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="btn btn-primary">Explore</a>
+  					</div>
+
+					</div>
+
+					<div class="card col-sm-4 ">
+  						<img src="{% static 'cse/book.jpg' %}" class="card-img-top img-fluid m-auto" alt="Book">
+ 					 <div class="card-body">
+    					<h5 class="card-title">Algorithm</h5>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="btn btn-primary">Explore</a>
+  					</div>
+
+					</div>
+
+					<div class="card col-sm-4 ">
+  						<img src="{% static 'cse/book.jpg' %}" class="card-img-top img-fluid m-auto" alt="Book">
+ 					 <div class="card-body">
+    					<h5 class="card-title">Data Mining</h5>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="btn btn-primary">Explore</a>
+  					</div>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+<!--Content Section-->
 
 </body>
 </html>
