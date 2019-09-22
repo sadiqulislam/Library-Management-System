@@ -3,11 +3,228 @@
 <head>
     {% load static %}
     <meta charset="UTF-8">
-    <title>{{ title | default:'Empty Title' }}</title>
+    <title>{{ title| default:'Empty Title'}}</title>
     <link rel="stylesheet" href="{% static 'bootstrap-4/css/bootstrap.css' %}">
-    <script src="{% static 'bootstrap-4/js/bootstrap.js'  %}"></script>
+	<script src="{% static 'bootstrap-4/js/bootstrap.js' %}"></script>
+	<link rel="icon" type="icon/image" href="{% static 'cse/Cse.png' %}">
+    <script src="{% static 'bootstrap-4/js/jquery-3.3.1.slim.min.js' %}"></script>
+    <script src="{% static 'bootstrap-4/js/popper.min.js' %}"></script>
 </head>
 <body>
+
+    <!--Nav Bar Section-->
+
+	<section class="navbar-section">
+
+        <div class="row py-5">
+
+       <nav class="navbar navbar-expand-lg navbar-light bg-primary rounded fixed-top">
+
+		<div class="container">
+				<a class="navbar-brand" href="#">LOGO</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav m-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Book List</a>
+						</li>
+
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Author
+							</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Action</a>
+					<a class="dropdown-item" href="#">Another action</a>
+				<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Something else here</a>
+				</div>
+						</li>
+					</ul>
+
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+
+		</div>
+			</nav>
+
+        </div>
+		</section>
+
+<!--Nav Bar Section-->
+
+
+
+<!--Banner Section-->
+
+	<section class="banner-section">
+
+			<!--Container Class Start-->
+			<div class="container">
+
+				<div class="row py-5">
+
+					<div class="col-sm-4 m-auto">
+							<img src="{% static 'bba/bba.jpg' %}" class="img-fluid">
+					</div>
+
+				</div>
+
+			</div>
+			<!--Container Class End-->
+	</section>
+<!--Banner Section End-->
+
+
+
+<!--Content Section-->
+		<section class="content-section">
+			<div class="container">
+				<div class="row py-5">
+					<div class="card col-sm-4 ">
+  						<img src="{% static 'bba/open-book.jpg' %}" class="card-img-top img-fluid m-auto" alt="Book">
+ 					 <div class="card-body">
+    					<h5 class="card-title">Business Administration</h5>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="btn btn-primary">Explore</a>
+  					</div>
+
+					</div>
+
+					<div class="card col-sm-4 ">
+  						<img src="{% static 'bba/open-book.jpg' %}" class="card-img-top img-fluid m-auto" alt="Book">
+ 					 <div class="card-body">
+    					<h5 class="card-title">Financial Accounting</h5>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="btn btn-primary">Explore</a>
+  					</div>
+
+					</div>
+
+					<div class="card col-sm-4 ">
+  						<img src="{% static 'bba/open-book.jpg' %}" class="card-img-top img-fluid m-auto" alt="Book">
+ 					 <div class="card-body">
+    					<h5 class="card-title">Managerial Accounting</h5>
+    					<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    					<a href="#" class="btn btn-primary">Explore</a>
+  					</div>
+
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+    <!-- Comment-->
+
+<!--Content Section-->
+
+
+<!--Table Of List Section-->
+
+    <section class="table-list">
+
+        <div class="container">
+
+            <div class="row py-5">
+
+                <div class="table-responsive">
+
+            <table class="table table-striped table-gradient-info table-hover table-bordered border-1px border-primary">
+        <thead class="">
+            <tr>
+                <th scope="col">Number</th>
+                <th scope="col">Book Name</th>
+                <th scope="col">Authors</th>
+                <th scope="col">Publishers</th>
+            </tr>
+        </thead>
+        <tbody>
+             <tr>
+                <th scope="row">1</th>
+                <td>Data Communication </td>
+                <td>Forouzan</td>
+                <td>Mc Graw Hill</td>
+             </tr>
+             <tr>
+                <th scope="row">2</th>
+                <td>Simulation and Modeling</td>
+                <td>Law & Kelton</td>
+                <td>Mc Graw Hillt</td>
+             </tr>
+             <tr>
+                <th scope="row">3</th>
+                <td>Operating System Concepts</td>
+                <td>Galvin Paige</td>
+                <td>Oriental Publishers</td>
+            </tr>
+            <tr>
+                <th scope="row">4</th>
+                <td>Computer Programming-1st Part</td>
+                <td>Tamim Shahriar Shubin</td>
+                <td>Dimik Publications</td>
+            </tr>
+            <tr>
+                <th scope="row">5</th>
+                <td>Computer Programming-2nd Part</td>
+                <td>Tamim Shahriar Shubin</td>
+                <td>Dimik Publicatons</td>
+            </tr>
+            <tr>
+                <th scope="row">6</th>
+                <td>Learn Programming With Python-1st Part</td>
+                <td>Tamim Shahriar Shubin</td>
+                <td>Dimik Publicatons</td>
+            </tr>
+            <tr>
+                <th scope="row">7</th>
+                <td>Learn Programming With Python-2nd Part</td>
+                <td>Tamim Shahriar Shubin</td>
+                <td>Dimik Publicatons</td>
+            </tr>
+            <tr>
+                <th scope="row">8</th>
+                <td>Learn Programming With Python-3rd Part</td>
+                <td>Tamim Shahriar Shubin</td>
+                <td>Dimik Publicatons</td>
+            </tr>
+            <tr>
+                <th scope="row">9</th>
+                <td>Computer Architecture And Organization</td>
+                <td>Hayes</td>
+                <td>Mc Graw Hill</td>
+            </tr>
+            <tr>
+                <th scope="row">10</th>
+                <td>Introduction To Algorithms</td>
+                <td>Coreman</td>
+                <td>Mc Graw Hill</td>
+            </tr>
+
+
+
+        </tbody>
+            </table>
+                </div>
+                    </div>
+                        </div>
+
+    </section>
+
+<!--Table of List Section-->
+
+    <script src="{% static 'bootstrap-4/js/jquery-3.3.1.slim.min.js' %}"></script>
+    <script src="{% static 'bootstrap-4/js/popper.min.js' %}"></script>
 
 </body>
 </html>

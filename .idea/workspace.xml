@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8a739c-d61c-448f-8a09-68e2103dc15b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cse/static/cse/book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/static/bba/bba.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bba/static/bba/open-book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/js/jquery-3.3.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/js/popper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bba/templates/bba/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bba/templates/bba/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bba/templates/bba/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/bba/templates/bba/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cse/templates/cse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/templates/cse/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cse/templates/cse/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/cse/templates/cse/list.html" afterDir="false" />
     </list>
